@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Customer Info</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<h2>Customer Information</h2>
+	</div>
+	<hr>
+	<div id='form-container'>
+		<h2>Search for Customer</h2>
+		<div id='input-container'>
+			<form id='form' action = 'search_customer.php' method = 'POST' >
+				<div id="name">
+					<label for='name'>Name:</label>
+					<input type='text' name='name'>
+				</div>
+				<div id="email">
+					<label for='email'>Email:</label>
+					<input type='text' name='email'>
+				</div>
+				<div id='button-container'>
+					<button type='submit'>Search</button>
+					<button type='submit' formaction='insert_customer.php'>Insert New Customer</button>
+					<button type='submit' formaction='dashboard.php'>Return to Dashboard</button>
+				</div>
+			</form>
+		</div>	
+	</div>			
+
+	
+</body>
+</html>

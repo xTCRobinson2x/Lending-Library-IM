@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(90deg, #efefef 21px, transparent 1%) center, 
+    linear-gradient(#efefef 21px, transparent 1%) center, #4484ce;
+  background-size: 22px 22px;
+}
+
+#header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #4484ce;
+  color: white;
+  text-align: center;
+}
+
+#header h2 {
+  color: #efefef;
+  font-size: 2rem;
+}
+
+hr {
+  border: none;
+  height: .2rem;
+  margin-top: 2rem;
+  background-image: linear-gradient(to right, #f8eee7, #4484ce, #fff);
+  width: 110%;
+}
+
+#form-container {
+  box-shadow: 0 2px 8px #0f162633;
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+#form-container h2 {
+  font-size: 2rem;
+  border-bottom: 4px solid #4484ce;
+  color: #0f1626;
+  margin: 0 0 1rem 0;
+}
+
+#form {
+  margin: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#input-container div {
+  display: flex;
+  justify-content: center;
+}
+
+#form div {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+
+#form label {
+  font-size: 1.25rem;
+  color: #0f1626;
+  border-radius: 25px;
+  width: 10rem;
+}
+
+#form input {
+  font: inherit;
+  border: 1px solid #ccc;
+  width: 20rem;
+  margin-left: 1rem;
+}
+
+#form input:focus {
+  outline: none;
+  border-color: #f19f4d;
+  background-color: #4484ce55;
+}
+
+#form button {
+  font: inherit;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 1px solid #4484ce;
+  background-color: #4484ce;
+  color: white;
+  padding: 1rem 1rem;
+  margin: 1rem;
+  width: 10rem;
+  box-shadow: 1px 1px 2px #0f162633;
+}
+
+#form button:hover,
+#form button:active {
+  background-color: #f19f4d;
+  border-color: #f19f4d;
+  box-shadow: 1px 1px 4px #0f162633;
+}
+
+#search-results {
+  border-collapse: collapse;
+  margin: .5rem;
+  font-size: 1rem;
+}
+
+#search-results thead {
+  color: #0f1626;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#search-results th,
+#search-results td {
+  padding: .8rem .8rem;
+}
+
+#search-results tbody tr:nth-of-type(even) {
+  background-color: #efefef;
+}
+
+#search-results button {
+  padding: .5rem;
+  margin: .1rem;
+  font-size: .8rem;
+  width: 100%;
+}

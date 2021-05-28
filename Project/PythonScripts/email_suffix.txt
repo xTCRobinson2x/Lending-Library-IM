@@ -1,0 +1,10 @@
+aol.com
+att.net
+comcast.net
+facebook.com
+gmail.com
+hotmail.com
+mail.com
+msn.com
+live.com
+yahoo.com

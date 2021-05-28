@@ -1,0 +1,9 @@
+Ave
+Ln
+Dr
+Rd
+St
+Blvd
+Loop
+Park
+Pike
