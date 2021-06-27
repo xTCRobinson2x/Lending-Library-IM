@@ -2,9 +2,9 @@
 require_once 'C:/users/tcrob/vendor/autoload.php';
  
 // init configuration
-$clientID = '818279590151-3tart1orbp6tsua5j23t4eknhks4gm1i.apps.googleusercontent.com';
-$clientSecret = 'lm-7uRNxPdU7JTdoYKY3ZTc1';
-$redirectUri = 'http://24.151.198.218.xip.io/verify.php';
+$clientID = 'SECRET';
+$clientSecret = 'SECRET';
+$redirectUri = 'SECRET';
   
 // create Client Request to access Google API
 $client = new Google_Client();
